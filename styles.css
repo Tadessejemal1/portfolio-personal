@@ -178,6 +178,7 @@ h1::after {
   line-height: 24px;
   color: #091e42;
 }
+
 .work {
   display: grid;
   grid-template-columns: auto;
@@ -185,12 +186,14 @@ h1::after {
   flex-direction: column;
   align-items: baseline;
 }
+
 .skills {
   display: flex;
   list-style: none;
   margin-left: -44px;
   margin-right: 24px;
 }
+
 .badge {
   flex-direction: row;
   align-items: center;
@@ -203,6 +206,7 @@ h1::after {
   margin-left: 16px;
   margin-bottom: 22px;
 }
+
 .card-text-portfolio {
   width: 295px;
   height: 87px;

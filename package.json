@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-mobile-work-and-about",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tadessejemal1/portfolio-mobile-work-and-about.git"
+  },
+  "keywords": [],
+  "author": "Tadesse jemal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tadessejemal1/portfolio-mobile-work-and-about/issues"
+  },
+  "homepage": "https://github.com/Tadessejemal1/portfolio-mobile-work-and-about#readme",
+  "devDependencies": {
+    "hint": "^7.0.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

@@ -476,6 +476,34 @@ h1::after {
   margin-top: 10px;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-bottom: 2rem;
+  margin-top: 4578px;
+}
+
+.contact-option-lists {
+  width: 327px;
+  height: 216px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  margin-top: 73px;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar ul {
     flex-wrap: wrap;

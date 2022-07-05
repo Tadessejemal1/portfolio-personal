@@ -504,6 +504,51 @@ form {
   margin-top: 73px;
 }
 
+.contact-form li {
+  list-style: none;
+}
+
+input {
+  width: 295px;
+  height: 18px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-left: -14px;
+  margin-right: -14px;
+}
+
+textarea {
+  height: 114px;
+  width: 295px;
+  border-bottom: 1px solid #dbd8d7;
+  resize: none;
+  background: #fbf8f7;
+  margin-left: -14px;
+  margin-right: 24px;
+  margin-top: 39px;
+}
+
+.btn-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  margin-left: 122px;
+  margin-top: 5px;
+  margin-right: 122px;
+  background: #ff6b00;
+}
+
+.btn-btn:hover {
+  border-color: blue;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar ul {
     flex-wrap: wrap;

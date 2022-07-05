@@ -1,10 +1,14 @@
 .navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   overflow: hidden;
   background-color: #3c3a39;
   position: relative;
   width: 375px;
   height: 92px;
   top: 0;
+ 
 }
 
 .navbar ul {
@@ -20,6 +24,7 @@
 .navbar li {
   list-style-type: none;
   padding: 1rem;
+  color: white;
 }
 
 .navbar a {
@@ -56,7 +61,7 @@
 
 .element {
   display: flex;
-  color: dark;
+  color: white;
   list-style: none;
   gap: 1.5rem;
   position: absolute;
@@ -386,13 +391,17 @@ h1::after {
   gap: 10px;
   width: 161px;
   height: 48px;
-  background: #ff6b00;
+  background: #FF6B00;
   flex: none;
   order: 2;
   flex-grow: 0;
   margin-top: 24px;
   margin-left: 24px;
   margin-right: 190px;
+  margin-top: 24px;
+  margin-left: 122px;
+  margin-right: 122px;
+  
 }
 
 .about-image {
@@ -472,6 +481,77 @@ h1::after {
   margin-top: 10px;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-bottom: 2rem;
+  margin-top: 4578px;
+}
+.contact-option-lists {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  margin-top: 73px;
+  
+}
+.contact-form li {
+  list-style: none;
+}
+input {
+  width: 295px;
+  height: 18px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #DBD8D7;;
+  margin-left: -14px;
+  margin-right: -14px;
+}
+textarea {
+  width: 100%;
+  height: 114px;
+  width: 295px;
+  border-bottom: 1px solid #DBD8D7;
+  resize: none;
+  background: #FBF8F7;
+  margin-left: -14px;
+  margin-right: 24px;
+  margin-top: 39px;
+  
+}
+.btn-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  margin-left: 122px;
+  margin-top: 5px;
+  margin-right: 122px;
+  background: #FF6B00;
+
+}
+.btn-btn:hover {
+  border-color: blue;
+}
 @media only screen and (max-width: 600px) {
   .navbar ul {
     flex-wrap: wrap;
@@ -486,10 +566,9 @@ h1::after {
     width: 100%;
     text-align: center;
   }
-
   .element {
     display: flex;
-    color: dark;
+    color: white;
     list-style: none;
     gap: 1.5rem;
     position: absolute;
@@ -499,4 +578,5 @@ h1::after {
   .card-text .card-title .element {
     margin-left: 5px;
   }
+  
 }

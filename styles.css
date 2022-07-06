@@ -519,9 +519,11 @@ input {
   border: none;
   border-bottom: 1px solid #dbd8d7;
 }
+
 input:focus {
   outline: none !important;
 }
+
 textarea {
   height: 114px;
   width: 295px;
@@ -533,11 +535,10 @@ textarea {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
 section #name::placeholder {
   position: absolute;
   height: 18px;
-  top: calc(50% - 18px/2);
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -550,8 +551,6 @@ section #email::placeholder {
   position: absolute;
   height: 18px;
   left: 16px;
-  top: calc(50% - 18px/2);
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -564,17 +563,18 @@ section #msg::placeholder {
   top: 12px;
   bottom: 12px;
   height: 14px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  color: #3C3A39;
+  color: #3c3a39;
   left: 12px;
 }
+
 textarea:focus {
   outline: none !important;
 }
+
 .btn-btn {
   display: flex;
   flex-direction: row;
@@ -586,19 +586,22 @@ textarea:focus {
   margin-left: 122px;
   margin-top: 5px;
   margin-right: 122px;
-  background: #FF6B00;
+  background: #ff6b00;
   border: none;
 }
+
 .btn-btn:hover,
- .btn-btn:focus {
-  background-color:#fbf8f7;
+.btn-btn:focus {
+  background-color: #fbf8f7;
   opacity: 0.9;
-  outline: 2px solid #FF6B00;;
+  outline: 2px solid #ff6b00;
 }
+
 .btn-btn-disabled {
   opacity: 0.6;
   pointer-events: none;
 }
+
 @media only screen and (max-width: 600px) {
   .navbar ul {
     flex-wrap: wrap;

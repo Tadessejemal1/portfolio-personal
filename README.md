@@ -1,7 +1,7 @@
 Project Name
-Hello Microverse
+Create a contact form
 
-This is my last project in Microverse's module one. In this project, things like setting up html and css liters, GitHub Actions, Grid, Flexbox and following GitHub flow are covered.
+This is my second project in Microverse's module two. In this project, things like setting up html and css liters, GitHub Actions, Grid, Flexbox and following GitHub flow are covered.
 
 Built With
 HTML and CSS

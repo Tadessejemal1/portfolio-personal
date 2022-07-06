@@ -1,4 +1,7 @@
 .navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   overflow: hidden;
   background-color: #3c3a39;
   position: relative;
@@ -20,6 +23,7 @@
 .navbar li {
   list-style-type: none;
   padding: 1rem;
+  color: white;
 }
 
 .navbar a {
@@ -56,7 +60,7 @@
 
 .element {
   display: flex;
-  color: dark;
+  color: white;
   list-style: none;
   gap: 1.5rem;
   position: absolute;
@@ -472,6 +476,132 @@ h1::after {
   margin-top: 10px;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-bottom: 120px;
+  margin-top: 4578px;
+}
+
+.contact-option-lists {
+  width: 327px;
+  height: 216px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  margin-top: 73px;
+}
+
+.contact-form li {
+  list-style: none;
+}
+
+input {
+  width: 295px;
+  height: 18px;
+  padding-left: 0.5rem;
+  padding-right: -24px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+textarea {
+  height: 114px;
+  width: 295px;
+  resize: none;
+  background: #fbf8f7;
+  margin-top: 39px;
+  border: none;
+  padding-left: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+section #name::placeholder {
+  position: absolute;
+  height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+section #email::placeholder {
+  position: absolute;
+  height: 18px;
+  left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+section #msg::placeholder {
+  top: 12px;
+  bottom: 12px;
+  height: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3c3a39;
+  left: 12px;
+}
+
+textarea:focus {
+  outline: none !important;
+}
+
+.btn-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  margin-left: 122px;
+  margin-top: 5px;
+  margin-right: 122px;
+  background: #ff6b00;
+  border: none;
+}
+
+.btn-btn:hover,
+.btn-btn:focus {
+  background-color: #fbf8f7;
+  opacity: 0.9;
+  outline: 2px solid #ff6b00;
+}
+
+.btn-btn-disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar ul {
     flex-wrap: wrap;
@@ -489,7 +619,7 @@ h1::after {
 
   .element {
     display: flex;
-    color: dark;
+    color: white;
     list-style: none;
     gap: 1.5rem;
     position: absolute;

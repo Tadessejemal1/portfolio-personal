@@ -565,9 +565,11 @@ textarea:focus {
   .navbar {
     width: 100%;
   }
+
   .nav-icon {
     display: flex;
   }
+
   .navbar ul {
     width: 80%;
     margin: 0 auto;
@@ -804,6 +806,7 @@ textarea:focus {
   .navbar {
     width: 100%;
   }
+
   .container-portfolio {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -816,9 +819,6 @@ textarea:focus {
     margin-top: 150px;
     font-size: 40px;
     line-height: 52px;
-  }
-  .container {
-    width: 100%;
   }
 
   .img-fluid {
@@ -849,7 +849,9 @@ textarea:focus {
 
   .container {
     background-position: 100% 30%;
+    width: 100%;
   }
+
   .container-fluid {
     width: 100%;
     background-position: 100% 93%;

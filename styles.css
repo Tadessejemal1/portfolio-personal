@@ -720,16 +720,6 @@ textarea:focus {
     margin-left: -14px;
   }
 
-  .work-card-text {
-    height: 140px;
-    margin-bottom: 24px;
-    margin-top: 14px;
-    width: -348px;
-    font-size: 20px;
-    line-height: 28px;
-    padding-bottom: 0%;
-  }
-
   .work-heading {
     margin-left: 153.5px;
     margin-top: 915px;
@@ -948,7 +938,7 @@ textarea:focus {
   }
 
   .skills ul {
-    margin-top: 14px;
+    margin-top: -124px;
     padding-top: 0%;
   }
 
@@ -998,10 +988,6 @@ textarea:focus {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .work-card-text {
-    padding-bottom: 0%;
-  }
-
   .work-heading-2 {
     padding-left: 10px;
     max-width: 60%;
@@ -1013,11 +999,8 @@ textarea:focus {
   }
 
   .work-card-text {
-    height: 60px;
-    margin-bottom: 8px;
-    margin-top: 14px;
-    font-size: 14px;
-    line-height: 18px;
+    padding-bottom: 0%;
+    margin-top: 1px;
   }
 
   .card-1 {
@@ -1031,7 +1014,7 @@ textarea:focus {
 
   .badge {
     height: 20px;
-    margin-top: -10px;
+    margin-top: -28px;
     margin-left: -40px;
     margin-right: 48px;
     gap: 1rem;

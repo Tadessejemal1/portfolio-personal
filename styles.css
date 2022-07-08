@@ -728,7 +728,6 @@ textarea:focus {
     font-size: 20px;
     line-height: 28px;
     padding-bottom: 0%;
-    
   }
 
   .work-heading {
@@ -947,10 +946,12 @@ textarea:focus {
     margin-left: 492.5px;
     margin-top: -38px;
   }
+
   .skills ul {
     margin-top: 14px;
     padding-top: 0%;
   }
+
   .about-heading {
     width: 566px;
     height: 78px;
@@ -984,9 +985,11 @@ textarea:focus {
   .navbar {
     width: 100%;
   }
+
   .skills ul {
     margin-top: 24px;
   }
+
   .container-portfolio {
     grid-template-columns: 1fr;
   }
@@ -994,10 +997,11 @@ textarea:focus {
   .about-skills {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .work-card-text {
     padding-bottom: 0%;
-    
   }
+
   .work-heading-2 {
     padding-left: 10px;
     max-width: 60%;
@@ -1015,9 +1019,11 @@ textarea:focus {
     font-size: 14px;
     line-height: 18px;
   }
+
   .card-1 {
     margin-top: -50px;
   }
+
   .work-detail {
     margin-top: -24px;
     margin-bottom: 34px;
@@ -1062,9 +1068,11 @@ textarea:focus {
   .work-card-text {
     margin-left: -12px;
   }
+
   .card-1 {
     margin-top: -50px;
   }
+
   .skills {
     margin-left: 122px;
   }

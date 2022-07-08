@@ -162,12 +162,12 @@
 }
 
 .img-fluid2 {
-  width: 327px;
-  height: 237px;
   margin-left: 190px;
   margin-right: 24px;
   column-gap: 80px;
   margin-top: 4px;
+  position: static;
+  color: black;
 }
 
 h1::after {
@@ -251,8 +251,9 @@ h1::after {
   height: 87px;
   line-height: 24px;
   color: #fff;
-  margin-top: 12px;
+  margin-top: 8px;
   margin-left: 16px;
+  overflow-x: hidden;
 }
 
 .work-heading-2 {
@@ -389,11 +390,10 @@ h1::after {
 
 .container {
   position: absolute;
-  width: 375px;
   height: 1901px;
   left: 0;
   margin-top: 120px;
-  background: #1c1a19;
+  background-color: #1c1a19;
 }
 
 .about-heading {
@@ -649,6 +649,10 @@ textarea:focus {
   pointer-events: none;
 }
 
+.skill-portfolio {
+  margin-top: 12px;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     width: 100%;
@@ -743,10 +747,6 @@ textarea:focus {
     height: 798px;
   }
 
-  .img-fluid2 {
-    display: none;
-  }
-
   .home- {
     margin-left: 144px;
   }
@@ -775,11 +775,16 @@ textarea:focus {
 
   .container {
     width: 100%;
-    background-image: url('./images/group3.png');
+    background: url('./images/desktop.png');
     background-repeat: no-repeat;
     background-position: 100% 15%;
     background-size: 35%;
     height: 1195px;
+    background-color: #1c1a19;
+  }
+
+  .img-fluid2 {
+    display: none;
   }
 
   .about-skills {
@@ -967,7 +972,7 @@ textarea:focus {
   }
 
   .heading {
-    margin-top: 150px;
+    margin-top: 120px;
   }
 }
 
@@ -1071,5 +1076,12 @@ textarea:focus {
 
   .container-portfolio {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .img-fluid2 {
+    margin-left: 390px;
+    margin-right: 24px;
+    column-gap: 80px;
+    margin-top: 4px;
   }
 }

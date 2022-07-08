@@ -217,6 +217,7 @@ h1::after {
   margin-left: 20px;
   margin-right: 24px;
   margin-top: 84px;
+  padding-top: 10%;
 }
 
 .badge {
@@ -269,11 +270,8 @@ h1::after {
   margin-right: 24px;
   font-size: 20px;
   line-height: 28px;
-  margin-top: 64px;
-  margin-bottom: 12px;
-  padding-bottom: 10%;
-  padding-top: 5%;
-  display: fixed;
+  margin-top: 44px;
+  padding-bottom: 15%;
 }
 
 .see-project {
@@ -673,7 +671,7 @@ textarea:focus {
     background: #ff6b00;
     color: #fff;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 390px;
     margin-left: -164px;
   }
 
@@ -729,6 +727,8 @@ textarea:focus {
     width: -348px;
     font-size: 20px;
     line-height: 28px;
+    padding-bottom: 0%;
+    
   }
 
   .work-heading {
@@ -947,11 +947,10 @@ textarea:focus {
     margin-left: 492.5px;
     margin-top: -38px;
   }
-
   .skills ul {
     margin-top: 14px;
+    padding-top: 0%;
   }
-
   .about-heading {
     width: 566px;
     height: 78px;
@@ -985,11 +984,9 @@ textarea:focus {
   .navbar {
     width: 100%;
   }
-
   .skills ul {
     margin-top: 24px;
   }
-
   .container-portfolio {
     grid-template-columns: 1fr;
   }
@@ -997,7 +994,10 @@ textarea:focus {
   .about-skills {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .work-card-text {
+    padding-bottom: 0%;
+    
+  }
   .work-heading-2 {
     padding-left: 10px;
     max-width: 60%;
@@ -1015,11 +1015,9 @@ textarea:focus {
     font-size: 14px;
     line-height: 18px;
   }
-
   .card-1 {
     margin-top: -50px;
   }
-
   .work-detail {
     margin-top: -24px;
     margin-bottom: 34px;
@@ -1064,11 +1062,9 @@ textarea:focus {
   .work-card-text {
     margin-left: -12px;
   }
-
   .card-1 {
     margin-top: -50px;
   }
-
   .skills {
     margin-left: 122px;
   }

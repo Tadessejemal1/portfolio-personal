@@ -715,10 +715,6 @@ textarea:focus {
     display: none;
   }
 
-  .navbar-links {
-
-  }
-
   .navbar-toggle {
     display: none;
   }
@@ -932,7 +928,7 @@ textarea:focus {
   .card-4,
   .card-5,
   .card-6 {
-    transition: all .5s ease;
+    transition: all 0.5s ease;
   }
 
   .card-1:hover,

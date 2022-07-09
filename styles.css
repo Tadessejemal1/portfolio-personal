@@ -220,6 +220,14 @@ h1::after {
   padding-top: 10%;
 }
 
+.skill-portfolio {
+  margin-top: 28px;
+}
+
+.skill-portfolios {
+  margin-top: 24px;
+}
+
 .badge {
   flex-direction: row;
   align-items: center;
@@ -241,7 +249,7 @@ h1::after {
   padding: 10px 12px;
   list-style: none;
   width: 56px;
-  height: 40px;
+  height: 20px;
   margin-left: 16px;
   background: rgba(255, 255, 255, 0.24);
 }
@@ -649,10 +657,6 @@ textarea:focus {
   pointer-events: none;
 }
 
-.skill-portfolio {
-  margin-top: 12px;
-}
-
 @media only screen and (min-width: 768px) {
   .navbar {
     width: 100%;
@@ -670,13 +674,13 @@ textarea:focus {
   .see-projects {
     display: block;
     position: absolute;
-    width: 327px;
-    height: 48px;
+    height: 58px;
     background: #ff6b00;
     color: #fff;
     text-align: center;
-    margin-top: 390px;
-    margin-left: -164px;
+    margin-top: 429px;
+    width: 369px;
+    margin-left: -184px;
   }
 
   .card-desktop {
@@ -820,10 +824,10 @@ textarea:focus {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 37px;
-    column-gap: 0.15rem;
+    column-gap: 0.015rem;
     margin-bottom: 0.2rem;
     margin-top: 240px;
-    margin-left: 141px;
+    margin-left: 131px;
   }
 
   .card-1 {
@@ -832,6 +836,7 @@ textarea:focus {
     gap: 1rem;
     margin-bottom: 0.2rem;
     background: url('./images/group7.png');
+    width: 369px;
     height: 435px;
     margin-top: -50px;
   }
@@ -840,8 +845,8 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 327px;
-    height: 386px;
+    width: 369px;
+    height: 435px;
     margin-left: 14px;
     margin-right: 24px;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/group6.png');
@@ -851,8 +856,8 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 327px;
-    height: 386px;
+    width: 369px;
+    height: 435px;
     margin-left: 14px;
     margin-right: 24px;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/group5.png');
@@ -862,8 +867,8 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 327px;
-    height: 386px;
+    width: 369px;
+    height: 435px;
     margin-left: 14px;
     margin-right: 24px;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/group7.png');
@@ -873,8 +878,8 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 327px;
-    height: 386px;
+    width: 369px;
+    height: 435px;
     margin-left: 14px;
     margin-right: 24px;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/group6.png');
@@ -884,8 +889,8 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 327px;
-    height: 386px;
+    width: 369px;
+    height: 435px;
     margin-left: 14px;
     margin-right: 24px;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/group5.png');
@@ -945,6 +950,10 @@ textarea:focus {
   .skills ul {
     margin-top: -124px;
     padding-top: 0%;
+  }
+
+  .skill-portfolio {
+    margin-top: 52px;
   }
 
   .about-heading {

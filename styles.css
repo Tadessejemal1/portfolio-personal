@@ -671,6 +671,34 @@ textarea:focus {
     margin: 0 auto;
   }
 
+  .navbar .navbar-links {
+    transition: all 0.2s ease;
+    color: white;
+    display: inline-block;
+    margin: 0 15px;
+    justify-content: space-between;
+  }
+
+  .navbar .navbar-links:hover {
+    transform: scale(1.7);
+  }
+
+  .social-media .element li {
+    transition: all 0.2s ease;
+  }
+
+  .social-media .element li:hover {
+    transform: scale(1.7);
+  }
+
+  .navbar-logo {
+    transition: all 3s ease;
+  }
+
+  .navbar-logo:hover {
+    transform: skew(60deg, 20deg);
+  }
+
   .see-projects {
     display: block;
     position: absolute;
@@ -685,14 +713,6 @@ textarea:focus {
 
   .card-desktop {
     display: none;
-  }
-
-  .navbar-links {
-    color: white;
-    display: inline-block;
-    margin: 0 15px;
-    transition: all 0.5s linear;
-    justify-content: space-between;
   }
 
   .navbar-toggle {
@@ -734,12 +754,18 @@ textarea:focus {
   }
 
   .badge {
-    height: 40px;
+    height: 25px;
     margin-top: -24px;
     margin-left: -40px;
     margin-right: 48px;
     gap: 1rem;
     background-repeat: no-repeat;
+  }
+
+  .badge:hover {
+    background-color: #ff6b00;
+    opacity: 0.9;
+    outline: 2px solid #ff6b00;
   }
 
   .container-fluid {
@@ -896,6 +922,24 @@ textarea:focus {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/group5.png');
   }
 
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    transition: all 0.5s ease;
+  }
+
+  .card-1:hover,
+  .card-2:hover,
+  .card-3:hover,
+  .card-4:hover,
+  .card-5:hover,
+  .card-6:hover {
+    transform: scale(1.07);
+  }
+
   .img-fluid {
     display: block;
     width: 640px;
@@ -903,6 +947,10 @@ textarea:focus {
     height: 448px;
     margin-top: -24px;
     margin-left: 141px;
+  }
+
+  .img-fluid:hover {
+    transform: scale(1.05);
   }
 
   .see-project-1 {
@@ -913,6 +961,13 @@ textarea:focus {
     line-height: 24px;
     color: #fff;
     text-align: center;
+  }
+
+  .see-project-1:hover {
+    background-color: #fbf8f7;
+    opacity: 0.9;
+    outline: 2px solid #ff6b00;
+    color: #1c1a19;
   }
 
   .work-card {

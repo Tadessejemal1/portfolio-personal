@@ -673,6 +673,10 @@ textarea:focus {
 
   .navbar .navbar-links {
     transition: all 0.2s ease;
+    color: white;
+    display: inline-block;
+    margin: 0 15px;
+    justify-content: space-between;
   }
 
   .navbar .navbar-links:hover {
@@ -712,11 +716,7 @@ textarea:focus {
   }
 
   .navbar-links {
-    color: white;
-    display: inline-block;
-    margin: 0 15px;
-    transition: all 0.5s linear;
-    justify-content: space-between;
+
   }
 
   .navbar-toggle {

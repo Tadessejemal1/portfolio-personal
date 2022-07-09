@@ -926,6 +926,24 @@ textarea:focus {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/group5.png');
   }
 
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    transition: all .5s ease;
+  }
+
+  .card-1:hover,
+  .card-2:hover,
+  .card-3:hover,
+  .card-4:hover,
+  .card-5:hover,
+  .card-6:hover {
+    transform: scale(1.07);
+  }
+
   .img-fluid {
     display: block;
     width: 640px;

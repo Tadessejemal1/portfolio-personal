@@ -670,7 +670,13 @@ textarea:focus {
     width: 80%;
     margin: 0 auto;
   }
-
+  .img-fluid:hover {
+    transform: scale(0.005) 1s ease;
+  }
+  
+  .navbar-logo:hover {
+    transition: all;
+  }
   .see-projects {
     display: block;
     position: absolute;
@@ -682,7 +688,12 @@ textarea:focus {
     width: 369px;
     margin-left: -184px;
   }
-
+  .see-project-1:hover {
+    background-color: #fbf8f7;
+    opacity: 0.9;
+    outline: 2px solid #ff6b00;
+    color: #1c1a19;
+  }
   .card-desktop {
     display: none;
   }
@@ -734,7 +745,7 @@ textarea:focus {
   }
 
   .badge {
-    height: 40px;
+    height: 25px;
     margin-top: -24px;
     margin-left: -40px;
     margin-right: 48px;

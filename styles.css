@@ -671,8 +671,28 @@ textarea:focus {
     margin: 0 auto;
   }
 
+  .navbar .navbar-links {
+    transition: all 0.2s ease;
+  }
+
+  .navbar .navbar-links:hover {
+    transform: scale(1.7);
+  }
+
+  .social-media .element li {
+    transition: all 0.2s ease;
+  }
+
+  .social-media .element li:hover {
+    transform: scale(1.7);
+  }
+
+  .navbar-logo {
+    transition: all 3s ease;
+  }
+
   .navbar-logo:hover {
-    transform: rotate(0);
+    transform: skew(60deg, 20deg);
   }
 
   .see-projects {

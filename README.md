@@ -2,7 +2,6 @@
  Portfolio:application Deploy
 ## Description the project.
 This is my portfolio application deploy project in Microverse's module one week 3. In this project, things like setting up Html and CSS liters, GitHub Actions, Grid, and GitHub flow are covered and portfolio applications deploy.
-## Description 
 ## Built With Major languages
   - HTML 
   - CSS 
@@ -34,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 ## Run Test for Linters
   For tracking linter errors locally you need to follow the⭐
 ## Deployment
-## Authors
+## Author
 ## 👤 Tadesse J.
 
   > GitHub: https://github.com/Tadessejemal1 

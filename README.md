@@ -1,30 +1,49 @@
-Project Name
-Use GitHub Pages to deploy web pages.
-
-This is my portfolio application deploy project in Microverse's module one week 3. In this project, things like setting up html and css liters, GitHub Actions, Grid, GitHub flow are covered and portfolio application deploy.
-
-Built With
-HTML and CSS
-Live Demo 
+## Project Name
+ Portfolio:application Deploy
+## Description the project.
+This is my portfolio application deploy project in Microverse's module one week 3. In this project, things like setting up Html and CSS liters, GitHub Actions, Grid, and GitHub flow are covered and portfolio applications deploy.
+## Description 
+## Built With Major languages
+  - HTML 
+  - CSS 
+## Technologies used
+ - linters 
+ - Lighthouse 
+ - Webhint 
+ - Stylelint 
+  
+## Live Demo 
 https://tadessejemal1.github.io/portfolio-mobile-work-and-about/
 
+## Getting Started
 
-Getting Started
 This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
 
 To get a local copy up and running follow these simple example steps.
 
-Prerequisites
-Setup
-Install
-Usage
+### Prerequisites
+ - IDE(code editor) like: **Vscode**, **Sublime**, etc.  
+ - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) 
+## Setup
+  1. Download the **Zip** file or clone the repo with: 
+   ```bash git clone https://github.com/Tadessejemal1/portfolio-mobile-work-and-about.git 
+  2.To access cloned directory run: ```bash cd portfolio-mobile-work-and-about ``` 
+  3. Open it with the live server  
+### Install
+ > To install linters and other project's dependencies run:
+ ```bash
+ npm install
+
+### Usage
 Run tests
-Deployment
+## Run Test for Linters
+  For tracking linter errors locally you need to follow the⭐Deployment
 Authors
 👤 Tadesse J.
 
-GitHub: https://github.com/Tadessejemal1
-LinkedIn: https://www.linkedin.com/feed/
+   .GitHub: https://github.com/Tadessejemal1
+   .LinkedIn: https://www.linkedin.com/feed/
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
@@ -34,6 +53,8 @@ Show your support
 Give a ⭐️ if you like this project!
 
 Acknowledgments
-Microverse
+Hat tip to anyone whose code was used
+Inspiration
+etc
 📝 License
 This project is MIT licensed.

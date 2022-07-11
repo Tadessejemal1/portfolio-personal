@@ -37,7 +37,8 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 ## 👤 Tadesse J.
 
-  > GitHub: https://github.com/Tadessejemal1
+  > GitHub: https://github.com/Tadessejemal1 
+  > 
   > LinkedIn: https://www.linkedin.com
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

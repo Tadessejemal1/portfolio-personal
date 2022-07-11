@@ -1,12 +1,12 @@
 Project Name
-Create a contact form
+Use GitHub Pages to deploy web pages.
 
-This is my second project in Microverse's module two. In this project, things like setting up html and css liters, GitHub Actions, Grid, Flexbox and following GitHub flow are covered.
+This is my 1st project in Microverse's module one week 3. In this project, things like setting up html and css liters, GitHub Actions, Grid, GitHub flow are covered and portfolio application deploy.
 
 Built With
 HTML and CSS
-Live Demo (if available)
-Live Demo Link
+Live Demo 
+
 
 Getting Started
 This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.

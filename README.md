@@ -30,13 +30,12 @@ To get a local copy up and running follow these simple example steps.
   2.To access cloned directory run: ```bash cd portfolio-mobile-work-and-about ``` 
   3. Open it with the live server  
 
-## Install
+### Install
  > To install linters and other project's dependencies run:
  ```bash
  npm install
 
 ### Usage
-Run tests
 ## Run Test for Linters
   For tracking linter errors locally you need to follow the⭐Deployment
 Authors
@@ -45,17 +44,17 @@ Authors
    .GitHub: https://github.com/Tadessejemal1
    .LinkedIn: https://www.linkedin.com/feed/
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support
+## Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+## Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
 etc
-📝 License
+## 📝 License
 This project is MIT licensed.

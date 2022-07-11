@@ -1,11 +1,12 @@
 Project Name
 Use GitHub Pages to deploy web pages.
 
-This is my 1st project in Microverse's module one week 3. In this project, things like setting up html and css liters, GitHub Actions, Grid, GitHub flow are covered and portfolio application deploy.
+This is my portfolio application deploy project in Microverse's module one week 3. In this project, things like setting up html and css liters, GitHub Actions, Grid, GitHub flow are covered and portfolio application deploy.
 
 Built With
 HTML and CSS
 Live Demo 
+https://tadessejemal1.github.io/portfolio-mobile-work-and-about/
 
 
 Getting Started

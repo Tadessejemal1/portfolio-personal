@@ -24,26 +24,21 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
  - IDE(code editor) like: **Vscode**, **Sublime**, etc.  
  - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) 
-## Setup
-  1. Download the Zip file or clone the repo with: 
-   ```bash git clone https://github.com/Tadessejemal1/portfolio-mobile-work-and-about.git 
-  2.To access cloned directory run: ```bash cd portfolio-mobile-work-and-about ``` 
-  3. Open it with the live server  
-
+### Setup
+  1. Download the **Zip** file or clone the repo with: ```bash git clone [https://github.com/Tadessejemal1/portfolio-  mobile-work-and-about/.git](https://github.com/Tadessejemal1/portfolio-  mobile-work-and-about/)
+  2.  ``` To access cloned directory run: ```bash cd portfolio-  mobile-work-and-about ``` 
+  3. Open it with the live server 
 ### Install
- > To install linters and other project's dependencies run:
- ```bash
- npm install
-
+  To install linters and other project's dependencies run:```bash npm install
 ### Usage
 ## Run Test for Linters
-  For tracking linter errors locally you need to follow the⭐Deployment
-Authors
-👤 Tadesse J.
+  For tracking linter errors locally you need to follow the⭐
+## Deployment
+## Authors
+## 👤 Tadesse J.
 
-   .GitHub: https://github.com/Tadessejemal1
-   .LinkedIn: https://www.linkedin.com/feed/
-
+  > GitHub: https://github.com/Tadessejemal1
+  > LinkedIn: https://www.linkedin.com
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 

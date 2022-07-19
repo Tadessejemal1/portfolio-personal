@@ -13,6 +13,7 @@ header {
 li {
   list-style: none;
 }
+
 hr {
   width: 80%;
 }
@@ -1177,6 +1178,7 @@ textarea:focus {
     color: #1c1a19;
     margin-top: 12px;
   }
+
   .nav-menu .nav-link {
     font-size: 32px;
     line-height: 0px;
@@ -1185,7 +1187,6 @@ textarea:focus {
 
   .nav-item {
     margin: 18px 0;
-    
   }
 
   .nav-menu li {

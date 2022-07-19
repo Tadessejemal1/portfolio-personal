@@ -5,6 +5,7 @@ This is my portfolio application deploy project in Microverse's module one week 
 ## Built With Major languages
   - HTML 
   - CSS 
+  -js
 ## Technologies used
  - linters 
  - Lighthouse 

@@ -1214,7 +1214,7 @@ textarea:focus {
     text-align: flex-start;
     transition: 0.5s;
     filter: drop-shadow(20px);
-    color:  #3c3a39;
+    color: #3c3a39;
     margin-top: 88px;
   }
 

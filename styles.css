@@ -23,7 +23,7 @@ li {
   border: none;
   height: 1px;
   margin-bottom: 24px;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 a {
@@ -688,6 +688,10 @@ textarea:focus {
     color: #fff;
   }
 
+  .text-divide {
+    display: none;
+  }
+
   .nav-menu {
     width: 80%;
     margin: 0 auto;
@@ -701,6 +705,7 @@ textarea:focus {
     color: white;
     display: inline-block;
     margin: 0 15px;
+    line-height: 40px;
   }
 
   .nav-menu .nav-link:hover {
@@ -1192,7 +1197,6 @@ textarea:focus {
     line-height: 0px;
     color: #fff;
     margin-left: 40px;
-    
   }
 
   .nav-item {

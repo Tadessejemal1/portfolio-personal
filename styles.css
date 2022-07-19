@@ -14,12 +14,16 @@ li {
   list-style: none;
 }
 
-hr {
+.text-divide{
   width: 80%;
+  margin-left:4px;
+  margin-right: 24px;
+  color: #E5E5E5;
+  margin-top: 15px;
+  border: 1px solid;
 }
-
 a {
-  color: white;
+  color: #E5E5E5;
   text-decoration: none;
   flex: 1;
 }
@@ -1172,17 +1176,18 @@ textarea:focus {
     background-color: #3c3a39;
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: flex-start;
     transition: 0.5s;
     filter: drop-shadow(20px);
     color: #1c1a19;
-    margin-top: 22px;
+    margin-top: 88px;
   }
 
   .nav-menu .nav-link {
     font-size: 32px;
     line-height: 0px;
     color: #fff;
+    margin-left: 40px;
   }
 
   .nav-item {
@@ -1213,5 +1218,9 @@ textarea:focus {
 
   .bar.active {
     left: 0;
+  }
+  .nav-logo {
+    margin-left: 32px;
+    opacity: 0;
   }
 }

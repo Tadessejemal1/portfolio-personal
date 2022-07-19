@@ -495,7 +495,7 @@ h1::after {
   left: 0;
   right: 0;
   margin-left: 24px;
-  margin-right: 24px;
+  margin-right: 34px;
 }
 
 .heading-symbol {
@@ -594,7 +594,7 @@ input:focus {
 
 textarea {
   height: 114px;
-  width: 295px;
+  width: 255px;
   resize: none;
   background: #fbf8f7;
   margin-top: 39px;
@@ -675,10 +675,6 @@ textarea:focus {
     width: 100%;
   }
 
-  .nav-menu li {
-    padding-left: 10rem;
-  }
-
   .hamburger {
     display: none;
   }
@@ -686,6 +682,9 @@ textarea:focus {
   .nav-icon {
     display: flex;
     color: #fff;
+    margin-right: 174px;
+    margin-top: 12px;
+    line-height: 20px;
   }
 
   .text-divide {
@@ -693,11 +692,8 @@ textarea:focus {
   }
 
   .nav-menu {
-    width: 80%;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-items: center;
   }
 
   .nav-menu .nav-link {
@@ -816,9 +812,9 @@ textarea:focus {
   .contact-form {
     float: right;
     margin-top: -80px;
-    align-items: stretch;
     padding: 0;
     width: 100%;
+    margin-right: 120px;
   }
 
   .contact-container {
@@ -1020,10 +1016,10 @@ textarea:focus {
   }
 
   .line-1 {
-    width: 794px;
+    width: 494px;
     height: 0;
     border: 1px solid #212121;
-    margin-left: 492.5px;
+    margin-left: 452.5px;
     margin-top: -38px;
   }
 
@@ -1044,12 +1040,12 @@ textarea:focus {
   }
 
   textarea {
-    width: 686px;
+    width: 353px;
     height: 114px;
   }
 
   input {
-    width: 684px;
+    width: 404px;
   }
 
   .btn-btn {
@@ -1057,7 +1053,11 @@ textarea:focus {
   }
 
   .contact-option {
-    margin-left: 135px;
+    margin-left: 25px;
+  }
+
+  .contact-option-lists {
+    margin-left: 25px;
   }
 
   .heading {
@@ -1066,7 +1066,7 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 1224px) {
-  .navbar {
+  header {
     width: 100%;
   }
 
@@ -1164,7 +1164,7 @@ textarea:focus {
   }
 
   .container-portfolio {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .img-fluid2 {
@@ -1172,6 +1172,32 @@ textarea:focus {
     margin-right: 24px;
     column-gap: 80px;
     margin-top: 4px;
+  }
+
+  .line-1 {
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 1022px) and (min-width: 767px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  input {
+    width: 180px;
+  }
+
+  .line-1 {
+    width: 340px;
+  }
+
+  textarea {
+    width: 340px;
   }
 }
 
@@ -1188,7 +1214,7 @@ textarea:focus {
     text-align: flex-start;
     transition: 0.5s;
     filter: drop-shadow(20px);
-    color: #1c1a19;
+    color:  #3c3a39;
     margin-top: 88px;
   }
 

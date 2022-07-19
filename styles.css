@@ -1,20 +1,24 @@
 * {
   margin: 0;
 }
+
 header {
   background-color: #262626;
   position: sticky;
   top: 0;
   width: 100%;
 }
+
 li {
   list-style: none;
 }
+
 a {
   color: white;
   text-decoration: none;
   flex: 1;
 }
+
 .navbar {
   display: flex;
   min-height: 100px;
@@ -26,12 +30,15 @@ a {
   height: 92px;
   top: 0;
 }
+
 .nav-icon {
   display: none;
 }
+
 .nav-logo {
   margin-left: 32px;
 }
+
 .hamburger {
   display: block;
   cursor: pointer;
@@ -39,6 +46,7 @@ a {
   top: 1.5rem;
   right: 12px;
 }
+
 .bar {
   display: block;
   width: 25px;
@@ -46,6 +54,7 @@ a {
   margin: 5px auto;
   background-color: white;
 }
+
 .container-fluid {
   background-image: url('./images/illustration-header-mobile.png');
   background-position: right 0 bottom -43px;
@@ -655,21 +664,23 @@ textarea:focus {
 
   .nav-menu li {
     padding-left: 10rem;
-   
   }
+
   .hamburger {
     display: none;
   }
+
   .nav-icon {
     display: flex;
     color: #fff;
   }
+
   .nav-menu {
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-items: center;  
+    justify-items: center;
   }
 
   .nav-menu .nav-link {
@@ -677,7 +688,6 @@ textarea:focus {
     color: white;
     display: inline-block;
     margin: 0 15px;
-   
   }
 
   .nav-menu .nav-link:hover {
@@ -715,6 +725,7 @@ textarea:focus {
   .card-desktop {
     display: none;
   }
+
   .heading-home {
     width: 566px;
     height: 160px;
@@ -1145,15 +1156,15 @@ textarea:focus {
     margin-top: 4px;
   }
 }
+
 @media (max-width: 768px) {
-  
   .nav-menu {
     position: fixed;
     left: -150%;
     top: 0;
     gap: 0;
     flex-direction: column;
-    background-color: #3C3A39;
+    background-color: #3c3a39;
     width: 100%;
     height: 1000px;
     text-align: flex-start;
@@ -1161,17 +1172,21 @@ textarea:focus {
     filter: drop-shadow(20px);
     color: #1c1a19;
   }
+
   .nav-menu .nav-link {
     font-size: 32px;
     line-height: 0px;
     color: #fff;
   }
+
   .nav-item {
-    margin: 14px 0px;
+    margin: 14px 0;
   }
+
   .nav-menu li {
-    padding-left: 0px;
+    padding-left: 0;
   }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }

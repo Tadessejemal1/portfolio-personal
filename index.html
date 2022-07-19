@@ -5,21 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
     <title>Portfolio</title>
   </head>
   <body>
       <!--work section-->  
-      <header class="navbar">
-        <ul>
-          <li class="navbar-logo">Tadesse J.</li>
-          <li class="navbar-toggle"><i class="fa fa-bars"></i></li>
-          <li class="navbar-links"><a href="#portfolio">Portfolio</a></li>
-          <li class="navbar-links"><a href="#about">About</a></li>
-          <li class="navbar-links"><a href="#work">Works</a></li>
-          <li class="nav-icon" ><i class="fa fa-envelope-o"></i></li>
-        </ul>
-       </header>
+      <header>
+        <nav class="navbar">
+          <a href="#"><h2 class="nav-logo">Tadesse</h2></a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="#contact-form" class="nav-link">Contact</a></li>
+            <li class="nav-icon" ><i class="fa fa-envelope-o"></i></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
         <!-- HOME SECTION -->
         <section class="container-fluid">
           <div class="home*" >
@@ -281,6 +294,6 @@
           </form>    
         </div>
       </section>
-      <script src="index.js"></script>
+      <script src="./js/index.js"></script>
   </body>
 </html>

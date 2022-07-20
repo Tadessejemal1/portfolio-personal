@@ -671,7 +671,7 @@ textarea:focus {
 }
 
 .modal-container {
-  border: 1px solid #dfe1E6;
+  border: 1px solid #dfe1e6;
   z-index: 100;
   width: 100%;
   background: #fff;
@@ -1338,6 +1338,7 @@ textarea:focus {
   textarea {
     width: 340px;
   } 
+
 }
 
 @media (max-width: 768px) {
@@ -1415,8 +1416,9 @@ textarea:focus {
     margin-right: 30px;
   }
 }
+
 @media (max-width: 368px) {
   .btn-x {
     margin-left: 200px;
   }
-}  
+} 

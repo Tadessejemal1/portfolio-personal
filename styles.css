@@ -1337,8 +1337,7 @@ textarea:focus {
 
   textarea {
     width: 340px;
-  } 
-
+  }
 }
 
 @media (max-width: 768px) {
@@ -1421,4 +1420,4 @@ textarea:focus {
   .btn-x {
     margin-left: 200px;
   }
-} 
+}

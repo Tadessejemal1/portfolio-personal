@@ -669,11 +669,12 @@ textarea:focus {
   opacity: 0.6;
   pointer-events: none;
 }
+
 .modal-container {
   border: 1px solid #DFE1E6;
   z-index: 100;
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   align-items: center;
   gap: 24px;
   display: none;
@@ -681,27 +682,29 @@ textarea:focus {
   top: 0;
   position: fixed;
 }
+
 .modal {
   margin-left: 32px;
   margin-right: 32px;
   margin-top: 48px;
 }
+
 .modal-header {
   display: flex;
   align-items: center;
 }
+
 .modal-title {
   width: 259px;
   height: 82px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: -43px;
-
 }
+
 .btn-x {
   cursor: pointer;
   border: none;
@@ -711,21 +714,24 @@ textarea:focus {
   margin-top: -28px;
   margin-right: 30px;
 }
+
 .modal-button {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
+
 .btn-modal {
   padding: 12px;
   width: 134px;
   height: 42px;
   top: 4px;
-  background: #F55800;
-  color: #FFFFFF;
+  background: #f55800;
+  color: #ffffff;
   border: none;
   margin-top: -16px;
 }
+
 .modal-media {
   margin-top: 24px;
   display: flex;
@@ -734,10 +740,12 @@ textarea:focus {
   text-align: center;
   margin-left: 38px;
 }
+
 .image-container {
   width: 311px;
   height: 220px;
 }
+
 .description {
   width: 311px;
   height: 220px;
@@ -748,6 +756,7 @@ textarea:focus {
   line-height: 24px;
   color: #344563;
 }
+
 @media only screen and (min-width: 768px) {
   .navbar {
     width: 100%;
@@ -1141,12 +1150,14 @@ textarea:focus {
   .heading {
     margin-top: 120px;
   }
+
   /* .popup-content {
    display: flex;
    flex-direction: row;
    margin-top: 12px;
    gap: 12px;
   } */
+
   .description {
     width: 424px;
     height: 336px;
@@ -1156,18 +1167,22 @@ textarea:focus {
     float: right;
     gap: 12px;
   }
+
   .image-container {
     width: 679px;
     height: 448px;
     top: 156px;
   }
+
   .modal-button {
     margin-top: -28px;
-    margin-left: 712px;
+    margin-left: 862px;
   }
+
   .btn-x {
-    margin-left: 839px;
+    margin-left: 1239px;
   }
+
   .modal-title {
     margin-bottom: 12px;
     margin-top: -45px;
@@ -1240,10 +1255,15 @@ textarea:focus {
     background-size: 40%;
     height: 798px;
   }
+
   .image-container {
     width: 481px;
     height: 320px;
     top: 156px;
+  }
+
+  .btn-x {
+    margin-left: 809px;
   }
 }
 
@@ -1318,6 +1338,7 @@ textarea:focus {
   textarea {
     width: 340px;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -1378,9 +1399,26 @@ textarea:focus {
     margin-left: 32px;
     opacity: 0;
   }
+
   .image-container {
     width: 311px;
     height: 220px;
     top: 156px;
   }
+
+  .btn-x {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 2.5rem;
+    margin-left: 300px;
+    margin-top: -28px;
+    margin-right: 30px;
+  }
 }
+
+@media (max-width: 368px) {
+  .btn-x {
+    margin-left: 200px;
+  }
+}  

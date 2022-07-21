@@ -1193,7 +1193,7 @@ textarea:focus {
     margin-bottom: 12px;
     margin-top: -25px;
   }
-  
+
   .modal-media {
     margin-bottom: 40px;
   }
@@ -1353,7 +1353,6 @@ textarea:focus {
 
   .btn-x {
     margin-left: 1009px;
-    
   }
 }
 
@@ -1445,6 +1444,7 @@ textarea:focus {
     height: 336px;
     margin-right: 27px;
   }
+
   .modal-button {
     margin-top: -36px;
     margin-left: 732px;

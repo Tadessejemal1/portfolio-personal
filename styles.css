@@ -1165,13 +1165,14 @@ textarea:focus {
   } */
 
   .description {
-    width: 424px;
+    width: 311px;
     height: 336px;
     font-size: 16px;
     line-height: 30px;
     color: #344563;
-    float: right;
     gap: 12px;
+    /* margin-top: -12px;
+    margin-left: 272px; */
   }
 
   .image-container {
@@ -1181,13 +1182,13 @@ textarea:focus {
   }
 
   .modal-button {
-    margin-top: -92px;
-    margin-left: 862px;
+    margin-top: 82px;
+    margin-left: 722px;
   }
 
-  .btn-x {
+  /* .btn-x {
     margin-left: 1239px;
-  }
+  } */
 
   .modal-title {
     margin-bottom: -42px;
@@ -1267,8 +1268,8 @@ textarea:focus {
   }
 
   .image-container {
-    width: 581px;
-    height: 420px;
+    width: 679px;
+    height: 448px;
     top: 156px;
   }
 }
@@ -1283,11 +1284,11 @@ textarea:focus {
     margin-top: 84px;
   }
 
-  .image-container {
+  /* .image-container {
     width: 311px;
     height: 220px;
     top: 156px;
-  }
+  } */
 
   .work-card-text {
     margin-left: -12px;
@@ -1326,7 +1327,7 @@ textarea:focus {
   }
 }
 
-@media only screen and (max-width: 1222px) and (min-width: 767px) {
+@media only screen and (max-width: 2500px) and (min-width: 768px) {
   .navbar {
     width: 100%;
   }
@@ -1347,13 +1348,19 @@ textarea:focus {
     width: 340px;
   }
 
-  .modal-button {
-    margin-top: -36px;
+  /* .modal-button {
+    margin-top: -86px;
     margin-left: 612px;
+  } */
+
+  .description {
+    margin-left: 722px;
+    margin-top: -456px;
   }
 
   .btn-x {
-    margin-left: 1009px;
+    margin-left: 969px;
+    margin-top: -10px;
   }
 }
 
@@ -1440,30 +1447,24 @@ textarea:focus {
 }
 
 @media (min-width: 1228px) {
-  .description {
+  /* .description {
     width: 524px;
     height: 336px;
     margin-right: 27px;
-  }
+  } */
 
-  .modal-button {
+  /* .modal-button {
     margin-top: -36px;
     margin-left: 732px;
-  }
+  } */
 }
-@media only screen and (max-width: 1226px) and (min-width: 1106px) {
-   .description {
-    margin-right: 40px;
-   }
 
-   .image-container {
-    width: 541px;
-   }
-}
-@media only screen and (max-width: 1353px) and (min-width: 1911px) {
+/* @media only screen and (max-width: 1226px) and (min-width: 1106px) {
   .description {
-    margin-right: 22px;
+    margin-right: 40px;
   }
 
-  
-}
+  .image-container {
+    width: 541px;
+  }
+} */

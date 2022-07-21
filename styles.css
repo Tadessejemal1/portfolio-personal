@@ -1151,10 +1151,10 @@ textarea:focus {
   }
   
   .modal-container {
-    border: 1px solid #dfe1e6;
     background: #fff;
     border: 1px solid #ebecf0;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 48px 48px rgba(37, 47, 137, 0.08);
+    height: 664px;
   }
 
   /* .popup-content {
@@ -1193,11 +1193,7 @@ textarea:focus {
     margin-bottom: 12px;
     margin-top: -25px;
   }
-
-  .modal-container {
-    height: 664px;
-  }
-
+  
   .modal-media {
     margin-bottom: 40px;
   }

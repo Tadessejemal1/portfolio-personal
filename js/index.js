@@ -46,7 +46,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: 'Project 2',
+    title: 'Multi Post',
     technologies: ['HTML', 'CSS', 'Ruby'],
     featuredImage: './images/popup.png',
     description:
@@ -57,7 +57,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: 'Another Project',
+    title: 'Project Post',
     technologies: ['Java', 'SpringBoot', 'Ruby'],
     featuredImage: './images/popup.png',
     description:
@@ -68,7 +68,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: 'Even More Projects',
+    title: 'More Projects',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: './images/popup.png',
     description:
@@ -79,7 +79,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: 'Project 3',
+    title: 'Project 4',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: './images/popup.png',
     description:
@@ -90,7 +90,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: 'Project X',
+    title: 'Project 5',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: './images/popup.png',
     description:
@@ -101,7 +101,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: "I'm tired",
+    title: "Post Project",
     technologies: ['HTML', 'CSS', 'Java'],
     featuredImage: './images/popup.png',
     description:

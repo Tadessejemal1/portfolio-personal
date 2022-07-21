@@ -1154,7 +1154,7 @@ textarea:focus {
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 48px 48px rgba(37, 47, 137, 0.08);
-    height: 664px;
+    height: 794px;
   }
 
   /* .popup-content {
@@ -1190,12 +1190,13 @@ textarea:focus {
   }
 
   .modal-title {
-    margin-bottom: 12px;
+    margin-bottom: -42px;
     margin-top: -25px;
   }
 
   .modal-media {
     margin-bottom: 40px;
+    margin-top: 52px;
   }
 }
 
@@ -1449,4 +1450,20 @@ textarea:focus {
     margin-top: -36px;
     margin-left: 732px;
   }
+}
+@media only screen and (max-width: 1226px) and (min-width: 1106px) {
+   .description {
+    margin-right: 40px;
+   }
+
+   .image-container {
+    width: 541px;
+   }
+}
+@media only screen and (max-width: 1353px) and (min-width: 1911px) {
+  .description {
+    margin-right: 22px;
+  }
+
+  
 }

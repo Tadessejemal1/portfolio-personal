@@ -594,7 +594,7 @@ input:focus {
 
 textarea {
   height: 114px;
-  width: 255px;
+  width: 295px;
   resize: none;
   background: #fbf8f7;
   margin-top: 39px;
@@ -907,11 +907,9 @@ textarea:focus {
   }
 
   .contact-form {
-    float: right;
     margin-top: -80px;
     padding: 0;
     width: 100%;
-    margin-right: 120px;
   }
 
   .contact-container {
@@ -1137,7 +1135,7 @@ textarea:focus {
   }
 
   textarea {
-    width: 353px;
+    width: 404px;
     height: 114px;
   }
 
@@ -1333,7 +1331,7 @@ textarea:focus {
   }
 
   input {
-    width: 180px;
+    width: 480px;
   }
 
   .line-1 {
@@ -1341,7 +1339,7 @@ textarea:focus {
   }
 
   textarea {
-    width: 340px;
+    width: 480px;
   }
 
   .description {

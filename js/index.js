@@ -34,7 +34,7 @@ const overlayModal = document.querySelector('#overlay')
 
 const projects = [
   {
-    title: 'Multi Post Stories',
+    title: 'Keeping track',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: './images/popup.png',
     description:
@@ -45,7 +45,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: 'Multi Post',
+    title: 'Keeping track',
     technologies: ['HTML', 'CSS', 'Ruby'],
     featuredImage: './images/popup.png',
     description:
@@ -166,7 +166,7 @@ for (let i = 0; i < projectSee.length; i++) {
       'onclick',
       `location.href="${projects[i].sourcelink}";`
     );
-    sourceButton.innerHTML = 'See Source <i class="fa-brands fa-github"></i>';
+    sourceButton.innerHTML = 'See Source <i class="fa fa-github" aria-hidden="true"></i>';
 
     buttons.appendChild(seeLiveButton);
     buttons.appendChild(sourceButton);

@@ -212,17 +212,3 @@ function validateEmail() {
   return true;
 }
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  const { email } = form.elements;
-  const isValidEmail = validateEmail(email);
-
-  if (isValidEmail) {
-    error.style.display = 'none';
-    form.submit();
-  } else {
-    error.style.display = 'block';
-    error.innerHTML = `${EMAIL_INVALID}!\n`;
-  }
-});

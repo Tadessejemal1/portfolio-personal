@@ -226,3 +226,10 @@ form.addEventListener('submit', (event) => {
     error.innerHTML = `${EMAIL_INVALID}!\n`;
   }
 });
+
+// preserve data on the local Storage
+
+// var testObject = { 'one': 10, 'two': 20, 'three': 3 };
+// localStorage.setItem('testObject', JSON.stringify(testObject));
+// var retrievedObject = JSON.parse(localStorage.getItem('testObject'));
+// console.log('retrievedObject: ', retrievedObject);

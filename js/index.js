@@ -27,10 +27,9 @@ document.querySelectorAll('.nav-link').forEach((n) =>
 const value = document.createDocumentFragment();
 const popupModal = document.querySelector('.modal-container');
 const projectSee = document.querySelectorAll('.project-see');
-console.log(popupModal);
-console.log(projectSee);
 const btnX = document.querySelector('.btn-x');
 const modalContent = document.querySelector('.popup-content');
+const overlayModal = document.querySelector('#overlay')
 // Project list
 
 const projects = [
@@ -122,6 +121,7 @@ let sourceButton;
 for (let i = 0; i < projectSee.length; i++) {
   projectSee[i].onclick = function createModal() {
     popupModal.style.display = 'block';
+    overlayModal.style.display = 'block';
 
     title = document.createElement('h3');
     title.setAttribute('class', 'modal-title');
@@ -137,12 +137,6 @@ for (let i = 0; i < projectSee.length; i++) {
       );
       medias.appendChild(techDisplay);
     }
-    // projects[i].technologies.forEach((i) => {
-    //     const techDisplay = document.createElement('span');
-    //     techDisplay.setAttribute('class', 'badge');
-    //     techDisplay.appendChild(document.createTextNode(projects[i].technologies));
-    //     medias.appendChild(techDisplay);
-    // });
 
     img = document.createElement('img');
     img.setAttribute('class', 'image-container');
@@ -189,6 +183,7 @@ for (let i = 0; i < projectSee.length; i++) {
 btnX.addEventListener('click', () => {
   popupModal.style.display = 'none';
   modalContent.innerHTML = '';
+  overlayModal.style.display = 'none';
 });
 
 // When the user clicks anywhere outside of the modal, close it
@@ -198,3 +193,36 @@ window.onclick = function closeButtonB(event) {
     modalContent.innerHTML = '';
   }
 };
+
+// validation email
+
+const form = document.querySelector('.contact-forms');
+const error = document.querySelector('.errors');
+const EMAIL_INVALID = 'Email address should be written in lower case';
+const email = document.querySelector ("#mail")
+
+function validateEmail() {
+  const emailValue = email.value.trim();
+  const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$/;
+
+  if (!emailRegex.test(emailValue)) {
+    return false;
+  }
+
+  return true;
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const { email } = form.elements;
+  const isValidEmail = validateEmail(email);
+
+  if (isValidEmail) {
+    error.style.display = 'none';
+    form.submit();
+  } else {
+    error.style.display = 'block';
+    error.innerHTML = `${EMAIL_INVALID}!\n`;
+  }
+});

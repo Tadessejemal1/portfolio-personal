@@ -736,7 +736,7 @@ textarea:focus {
   margin-top: 24px;
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 4px;
   text-align: center;
   margin-left: 38px;
 }
@@ -754,6 +754,17 @@ textarea:focus {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+}
+
+.errors {
+  color: #dc3545;
+  background-color: #fff;
+  display: none;
+  font-size: 16px;
+  margin-top: 4px;
+  align-self: flex-start;
+  padding: 6px;
+  margin-left: -14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1154,15 +1165,13 @@ textarea:focus {
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 48px 48px rgba(37, 47, 137, 0.08);
-    height: 794px;
+    height: 631px;
+    width: 1156px;
+    margin-left: 90px;
+    z-index: 112;
+    margin-top: 52px;
+    
   }
-
-  /* .popup-content {
-   display: flex;
-   flex-direction: row;
-   margin-top: 12px;
-   gap: 12px;
-  } */
 
   .description {
     width: 311px;
@@ -1175,18 +1184,14 @@ textarea:focus {
 
   .image-container {
     width: 679px;
-    height: 448px;
+    height: 408px;
     top: 156px;
   }
 
   .modal-button {
-    margin-top: 82px;
+    margin-top: 42px;
     margin-left: 722px;
   }
-
-  /* .btn-x {
-    margin-left: 1239px;
-  } */
 
   .modal-title {
     margin-bottom: -42px;
@@ -1194,8 +1199,8 @@ textarea:focus {
   }
 
   .modal-media {
-    margin-bottom: 40px;
-    margin-top: 52px;
+    margin-bottom: 32px;
+    margin-top: 48px;
   }
 }
 
@@ -1267,7 +1272,7 @@ textarea:focus {
 
   .image-container {
     width: 679px;
-    height: 448px;
+    height: 408px;
     top: 156px;
   }
 }
@@ -1281,12 +1286,6 @@ textarea:focus {
   .work-heading-2 {
     margin-top: 84px;
   }
-
-  /* .image-container {
-    width: 311px;
-    height: 220px;
-    top: 156px;
-  } */
 
   .work-card-text {
     margin-left: -12px;
@@ -1346,18 +1345,43 @@ textarea:focus {
     width: 340px;
   }
 
-  /* .modal-button {
-    margin-top: -86px;
-    margin-left: 612px;
-  } */
-
   .description {
-    margin-left: 722px;
-    margin-top: -456px;
+    margin-left: 712px;
+    margin-top: -416px;
+    width: 354px;
+    height: 336px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #344563;
+    
   }
 
+  #overlay {
+    backdrop-filter: blur(8px);
+    position: fixed;
+    opacity: 1;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    z-index: 13;
+    display: none;
+    pointer-events: all;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
   .btn-x {
-    margin-left: 969px;
+    margin-left: 1069px;
     margin-top: -10px;
   }
 }
@@ -1443,26 +1467,3 @@ textarea:focus {
     margin-left: 200px;
   }
 }
-
-@media (min-width: 1228px) {
-  /* .description {
-    width: 524px;
-    height: 336px;
-    margin-right: 27px;
-  } */
-
-  /* .modal-button {
-    margin-top: -36px;
-    margin-left: 732px;
-  } */
-}
-
-/* @media only screen and (max-width: 1226px) and (min-width: 1106px) {
-  .description {
-    margin-right: 40px;
-  }
-
-  .image-container {
-    width: 541px;
-  }
-} */

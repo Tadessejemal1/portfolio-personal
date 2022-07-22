@@ -90,7 +90,6 @@
             </div>
         </section>   
         <!-- Modal Pop-up --> 
-        <section></section>
         <section class="modal-container">
           <div class="modal">
             <div class="modal-header"> 
@@ -99,7 +98,9 @@
             <div class="popup-content"> 
             </div>
           </div>
-        </section>       
+        </section>  
+        <div id="overlay">
+        </div>     
         <section id="portfolio" class="container-portfolio">
             <div class="card-1">
               <div class="card-profession-1">
@@ -285,7 +286,7 @@
               <p>I'm always intersted in hearing about now projects, so if you wouldn't like to chat please get in</p>
             </article>
           </div>
-          <form action="https://formspree.io/f/mbjwvgdz" method="post">
+          <form class="contact-forms" action="https://formspree.io/f/mbjwvgdz" method="post">
             <ul class="contact-form">
               <li>
                 <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
@@ -298,6 +299,7 @@
                </li>
               </ul>
               <button type="submit" class="btn-btn">Get In Touch</button>
+              <p class="errors">errors</p>
           </form>    
         </div>
       </div>

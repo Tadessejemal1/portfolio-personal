@@ -29,7 +29,7 @@ const popupModal = document.querySelector('.modal-container');
 const projectSee = document.querySelectorAll('.project-see');
 const btnX = document.querySelector('.btn-x');
 const modalContent = document.querySelector('.popup-content');
-const overlayModal = document.querySelector('#overlay');
+const overlayModal = document.querySelector('#overlay')
 // Project list
 
 const projects = [
@@ -100,7 +100,7 @@ const projects = [
       'https://github.com/Tadessejemal1/portfolio-mobile-work-and-about',
   },
   {
-    title: 'Post Project',
+    title: "Post Project",
     technologies: ['HTML', 'CSS', 'Java'],
     featuredImage: './images/popup.png',
     description:
@@ -166,8 +166,7 @@ for (let i = 0; i < projectSee.length; i++) {
       'onclick',
       `location.href="${projects[i].sourcelink}";`
     );
-    sourceButton.innerHTML =
-      'See Source <i class="fa fa-github" aria-hidden="true"></i>';
+    sourceButton.innerHTML = 'See Source <i class="fa fa-github" aria-hidden="true"></i>';
 
     buttons.appendChild(seeLiveButton);
     buttons.appendChild(sourceButton);
@@ -200,7 +199,7 @@ window.onclick = function closeButtonB(event) {
 const form = document.querySelector('.contact-forms');
 const error = document.querySelector('.errors');
 const EMAIL_INVALID = 'Email address should be written in lower case';
-const email = document.querySelector('#mail');
+const email = document.querySelector ("#mail")
 
 function validateEmail() {
   const emailValue = email.value.trim();
@@ -215,8 +214,10 @@ function validateEmail() {
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
+
   const { email } = form.elements;
   const isValidEmail = validateEmail(email);
+
   if (isValidEmail) {
     error.style.display = 'none';
     form.submit();
@@ -225,3 +226,10 @@ form.addEventListener('submit', (event) => {
     error.innerHTML = `${EMAIL_INVALID}!\n`;
   }
 });
+
+// preserve data on the local Storage
+
+// var testObject = { 'one': 10, 'two': 20, 'three': 3 };
+// localStorage.setItem('testObject', JSON.stringify(testObject));
+// var retrievedObject = JSON.parse(localStorage.getItem('testObject'));
+// console.log('retrievedObject: ', retrievedObject);

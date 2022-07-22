@@ -764,7 +764,7 @@ textarea:focus {
   margin-top: 4px;
   align-self: flex-start;
   padding: 6px;
-  margin-left: -14px;
+  margin-left: 24px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1377,6 +1377,11 @@ textarea:focus {
   .btn-x {
     margin-left: 1069px;
     margin-top: -10px;
+  }
+
+  .errors {
+    padding: 16px;
+    margin-left: -14px;
   }
 }
 

@@ -1169,7 +1169,7 @@ textarea:focus {
     width: 1156px;
     margin-left: 90px;
     z-index: 112;
-    margin-top: 52px; 
+    margin-top: 52px;
   }
 
   .description {
@@ -1349,7 +1349,6 @@ textarea:focus {
     margin-top: -416px;
     width: 354px;
     height: 336px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1371,12 +1370,12 @@ textarea:focus {
     display: none;
     pointer-events: all;
   }
-  
+
   #overlay.active {
     opacity: 1;
     pointer-events: all;
   }
- 
+
   .btn-x {
     margin-left: 1069px;
     margin-top: -10px;

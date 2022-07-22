@@ -1169,8 +1169,7 @@ textarea:focus {
     width: 1156px;
     margin-left: 90px;
     z-index: 112;
-    margin-top: 52px;
-    
+    margin-top: 52px; 
   }
 
   .description {
@@ -1356,7 +1355,6 @@ textarea:focus {
     font-size: 20px;
     line-height: 30px;
     color: #344563;
-    
   }
 
   #overlay {
@@ -1369,7 +1367,6 @@ textarea:focus {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    pointer-events: none;
     z-index: 13;
     display: none;
     pointer-events: all;
@@ -1379,7 +1376,7 @@ textarea:focus {
     opacity: 1;
     pointer-events: all;
   }
-  
+ 
   .btn-x {
     margin-left: 1069px;
     margin-top: -10px;

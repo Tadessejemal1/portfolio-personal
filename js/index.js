@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
       languages: ['React JS', 'React Router Dom'],
       live: 'https://euphonious-cactus-a77132.netlify.app/',
-      source: 'https://github.com/aamirkhan2478/math-magicians-react',
+      source: 'https://github.com/Tadessejemal1/math-magicians.git',
       img: './images/Capture7.JPG',
     },
     {

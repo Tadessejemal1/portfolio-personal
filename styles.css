@@ -430,6 +430,7 @@ a {
   position: absolute;
   max-width: calc(100% - 187px);
   margin-bottom: 253px;
+  margin-top: -550px;
 }
 
 .about-heading {
@@ -1256,6 +1257,7 @@ button:disabled {
   .about-content {
     margin-left: 156px;
     margin-bottom: 213px;
+    margin-top: 0;
   }
 
   .about-heading {

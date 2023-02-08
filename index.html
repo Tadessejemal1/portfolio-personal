@@ -1,308 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tadesse Jemal</title>
+    <link rel="stylesheet" href="./styles.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-    <title>Portfolio</title>
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+    <script src="./js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
   </head>
   <body>
-      <!--work section-->  
-      <header>
-        <nav class="navbar">
-          <a href="#"><h2 class="nav-logo">Tadesse</h2></a>
-          <ul class="nav-menu">
-            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a><hr class="text-divide"></li>
-            <li class="nav-item"><a href="#about" class="nav-link">About</a><hr class="text-divide"></li>
-            <li class="nav-item"><a href="#contact-form" class="nav-link">Contact</a><hr class="text-divide"></li>
-            <li class="nav-icon" ><i class="fa fa-envelope-o"></i></li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </nav>
-      </header>
-        <!-- HOME SECTION -->
-        <section class="container-fluid">
-          <div class="home*" >
-            <div class="home-">
-              <h1 class="heading-home">
-                Hey There. <br>
-                I’m Tadesse
-              </h1>
-              <h2 class="card-title">I’m a software developer</h2>
-              <p class="card-text">
-                I can help you build a product , feature or website Look through
-                some of my work and experience! If you like what you see and have a
-                project you need coded, don’t hestiate to contact me.
-              </p>
-            </div>
-            <div class="social-media">
-              <ul class="element">
-                  <li><a href=""><img src="images/1.png" alt="github"></a></li>
-                  <li><a href=""><img src="images/2.png" alt="instagram"></a></li>
-                  <li><a href=""><img src="images/3.png" alt="em"></a></li>
-                  <li><a href=""><img src="images/4.png" alt="twitor"></a></li>
-                  <li><a href=""><img src="images/5.png" alt="angellist"></a></li>
-              </ul>
-            </div>
-          </div>  
-        </section>
-        <section id="work" class="work">
-            <div class="row">
-              <div class="recent-work">
-                  <h2 class="work-heading">My Recent Works</h2>
-              </div>
-              <div class="line-1">
-                <hr class="text-white" />
-              </div>
-            </div>
-            <div class="row-work">
-              <div class="work-card">
-                <img class="img-fluid" src="images/group.png" alt="my recent work image" />
-              </div>
-                <div class="work-detail">  
-                  <h2 class="work-heading-2">Multi-Post Stories</h2>
-                  <p class="work-card-text">
-                    A daily selection of privately personalized reads; no accounts or
-                    sign-ups required. has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-                </div>
-                <div class="skills">
-                  <ul>
-                    <li class="badge">CSS</li>
-                    <li class="badge">HTML</li>
-                    <li class="badge">Bootstrap</li>
-                    <li class="badge">Ruby</li>
-                  </ul>
-                </div>
-                <div class="project-see">
-                  <h3 class="see-project-1"><a>see project</a></h3>
-                </div>
-            </div>
-        </section>   
-        <!-- Modal Pop-up --> 
-        <section class="modal-container">
-          <div class="modal">
-            <div class="modal-header"> 
-              <span class="btn-x" draggable="true">&times;</span>
-            </div>  
-            <div class="popup-content"> 
-            </div>
-          </div>
-        </section>  
-        <div id="overlay">
-        </div>     
-        <section id="portfolio" class="container-portfolio">
-            <div class="card-1">
-              <div class="card-profession-1">
-                <div class="card-desktop">
-                  <h3 class="heading">Professional Art Printing Data</h3>
-                  <p class="card-text-portfolio">
-                    A daily selection of privately personalized reads; no accounts
-                    or sign-ups required. has been the industry's standard
-                  </p>
-                  <div class="skill-portfolios">
-                    <span class="badge-1">HTML</span>
-                    <span class="badge-1">Bootstrap</span>
-                    <span class="badge-1">Ruby</span>
-                  </div>
-                </div>
-                <div class="project-see">
-                  <h3 class="see-projects"><a>see project</a></h3>
-                </div> 
-              </div>
-            </div>
-              <div class="card-2">
-                <div class="card-profession">
-                  <h3 class="heading">Professional Art Printing Data</h3>
-                  <p class="card-text-portfolio">
-                    A daily selection of privately personalized reads; no accounts
-                    or sign-ups required. has been the industry's standard
-                  </p>
-                  <div class="skill-portfolio">
-                    <span class="badge-1">HTML</span
-                    >
-                    <span class="badge-1">Bootstrap</span>
-                    <span class="badge-1">Ruby</span>
-                  </div>
-                  <div class="project-see">
-                    <h3 class="see-project"><a>see project</a></h3>
-                  </div>
-                </div>
-              </div>
-                <div class="card-3">
-                  <div class="card-profession">
-                    <h3 class="heading">Professional Art Printing Data</h3>
-                    <p class="card-text-portfolio">
-                      A daily selection of privately personalized reads; no accounts
-                      or sign-ups required. has been the industry's standard
-                    </p>
-                    <div class="skill-portfolio">
-                      <span class="badge-1">HTML</span>
-                      <span class="badge-1">Bootstrap</span>
-                      <span class="badge-1">Ruby</span>
-                    </div>
-                    <div class="project-see">
-                      <h3 class="see-project"><a>see project</a></h3>
-                    </div>
-                  </div>
-                </div>
-                    <div class="card-4">
-                    <div class="card-profession">
-                      <h3 class="heading">Professional Art Printing Data</h3>
-                      <p class="card-text-portfolio">
-                        A daily selection of privately personalized reads; no accounts
-                        or sign-ups required. has been the industry's standard
-                      </p>
-                      <div class="skill-portfolio">
-                        <span class="badge-1">HTML</span>
-                        <span class="badge-1">Bootstrap</span>
-                        <span class="badge-1">Ruby</span>
-                      </div>
-                      <div class="project-see">
-                        <h3 class="see-project"><a>see project</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-5">
-                    <div class="card-profession">
-                      <h3 class="heading">Professional Art Printing Data</h3>
-                      <p class="card-text-portfolio">
-                        A daily selection of privately personalized reads; no accounts
-                        or sign-ups required. has been the industry's standard
-                      </p>
-                      <div class="skill-portfolio">
-                        <span class="badge-1">HTML</span>
-                        <span class="badge-1">Bootstrap</span>
-                        <span class="badge-1">Ruby</span>
-                      </div>
-                      <div class="project-see">
-                        <h3 class="see-project"><a>see project</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="card-6">
-                      <div class="card-profession">
-                        <h3 class="heading">Professional Art Printing Data</h3>
-                        <p class="card-text-portfolio">
-                            A daily selection of privately personalized reads; no accounts
-                            or sign-ups required. has been the industry's standard
-                        </p>
-                        <div class="skill-portfolio">
-                          <span class="badge-1">HTML</span>
-                          <span class="badge-1">Bootstrap</span>
-                          <span class="badge-1">Ruby</span>
-                        </div>
-                        <div class="project-see">
-                          <h3 class="see-project"><a>see project</a></h3>
-                        </div>
-                      </div>
-                    </div>
-                  
-        </section>    
-        <section id="about" class="container">
-        <div class="row-about">
-          <div class="about-about">
-            <h2 class="about-heading">About me</h2>
-            <p class="about-text">
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <button type="button" class="btn">
-              Get My Resume
-            </button>
-          </div>
-          <div class="about">
-            <img src="images/mobile.png" class="img-fluid2" alt="About me section decoration"/>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="nav-header">
+      <h1 class="logo">Tadesse</h1>
+      <nav class="navbar">
+        <ul class="nav-flex">
+          <li class="nav-link">
+            <a href="#work" class="link-nav">Portfolio</a>
+          </li>
+          <li class="nav-link">
+            <a href="#about" class="link-nav">About</a>
+          </li>
+          <li class="nav-link">
+            <a href="#contact" class="link-nav">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-toggle-btn">
+        <ion-icon name="menu" class="icon-menu"></ion-icon>
+        <ion-icon name="close" class="icon-menu"></ion-icon>
+      </div>
+    </header>
+
+    <!--welcome-section-->
+
+    <section id="welcome" class="welcome-section">
+      <article class="information">
+        <h1>Hey There. I’m Tadesse</h1>
+        <h2>I'am a <span class="auto-change"></span></h2>
+        <p>
+          I can help you build a product , feature or website Look through
+          some of my work and experience! If you like what you see and have a
+          project you need coded, don’t hestiate to contact me.
+        </p>
+      </article>
+
+        <ul class="contact">
+          <li><a rel="noopener" target="_blank" href="https://linkedin.com/in/tadesse-jemal"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+          <li><a rel="noopener" target="_blank" href="https://github.com/Tadessejemal1"><i class="fa-brands fa-github fa-lg"></i></a></li>
+          <li><a rel="noopener" target="_blank" href="https://twitter.com/tadesse"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+          <li><a href="https://angel.co/u/tadesse-jemal"><i class="fa-brands fa-angellist fa-lg"></i></a></li>
+        </ul>
+    </section>
+    <!--=============== WORK SECTION ===============-->
+    <section id="work" class="work-section">
+      <div class="grid-items" id="grid"></div>
+    </section>
+
+    <!--=============== ABOUT SECTION ===============-->
+    <section id="about" class="about-section">
+      <div class="about-flex">
+        <div class="about-content">
+          <h1 class="about-heading">About me</h1>
+          <p class="about-description">
+            Hello I'm a Web developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don't hesitate to
+            contact me.
+          </p>
+          <div class="btn-left" id="btn-id">
+            <a
+              rel="noopener"
+              href="https://docs.google.com/document/d/1K58XXOFPM1CpbkpztFzX6brdLp76gLAyyDr_npjsZMw/edit"
+              target="_blank"
+              class="btn-primary"
+              >Get My Resume</a
+            >
           </div>
         </div>
-        <div class="row">
-          <div class="line">
-            <hr class="text-white" />
-          </div>
-        </div>
-        <div class="about-skills">
-          <div class="skill">
-            <h3 class="heading-symbol">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="symbol" viewBox="0 0 16 16">
-                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
-              </svg>
-              Language
-            </h3>
-            <ul class="skill-list">
-              <li class="mb-2">Javascript</li>
-              <li class="mb-2">Ruby</li>
-              <li class="mb-2">Html</li>
-              <li class="mb-2">Css</li>
-            </ul>
-          </div>
-          <div class="skill">
-            <h3 class="heading-symbol">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="symbol" viewBox="0 0 16 16">
-                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
-              </svg>
-              Frameworks
-            </h3>
-            <ul class="skill-list">
-              <li class="mb-2">Bootstrap</li>
-              <li class="mb-2">Ruby</li>
-              <li class="mb-2">RSPec</li>
-              <li class="mb-2">Capybara</li>
-              <li class="mb-2">Selenium</li>
-            </ul>
-          </div>
-          <div class="skill">
-            <h3 class="heading-symbol3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="symbol" viewBox="0 0 16 16">
-                <circle cx="8" cy="8" r="8" />
-              </svg>
-              Skills
-            </h3>
-            <ul class="skill-list">
-              <li class="Codekit">Codekit</li>
-              <li class="Github">Github</li>
-              <li class="Codepen">Codepen</li>
-              <li class="Gitlab">Gitlab</li>
-              <li class="Terminal">Terminal</li>
-            </ul>
-          </div>
-        </div>
-      </section> 
-      <div id="contact-form">
-        <div class="contact-container">
-          <div class="contact-option">
-            <article class="contact-option-lists">
-              <p>I'm always intersted in hearing about now projects, so if you wouldn't like to chat please get in</p>
-            </article>
-          </div>
-          <form class="contact-forms" action="https://formspree.io/f/mbjwvgdz" method="post">
-            <ul class="contact-form">
-              <li>
-                <input class="contact-forms-input" type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
-              </li>
-              <li>
-                <input class="contact-forms-input" type="email" id="mail" name="user_email" placeholder="Email Adress" required>
-               </li>
-               <li>
-                <textarea class="contact-forms-input" id="msg" name="user_message" placeholder="Enter text here" maxlength="500" required></textarea>
-               </li>
-              </ul>
-              <button type="submit" class="btn-btn">Get In Touch</button>
-              <p class="errors">errors</p>
-          </form>    
+        <div class="image-container">
+          <div class="about-image"></div>
         </div>
       </div>
-      <script src="./js/index.js"></script>
+      <hr />
+      <ul class="about-list">
+        <li class="language-list">
+          Language
+          <ul>
+            <li class="list-style-none">Javascript</li>
+            <li class="list-style-none">Ruby</li>
+            <li class="list-style-none">Html</li>
+            <li class="list-style-none">Css</li>
+          </ul>
+        </li>
+        <li class="frameworks-list">
+          Frameworks
+          <ul>
+            <li class="list-style-none">Bootstrap</li>
+            <li class="list-style-none">Ruby on Rails</li>
+            <li class="list-style-none">React Js</li>
+            <li class="list-style-none">Material UI</li>
+            <li class="list-style-none">Tailwind CSS</li>
+          </ul>
+        </li>
+        <li class="skills-list">
+          Skills
+          <ul>
+            <li class="list-style-none">Codekit</li>
+            <li class="list-style-none">Github</li>
+            <li class="list-style-none">Codepen</li>
+            <li class="list-style-none">Terminal</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!--=============== CONTACT SECTION ===============-->
+    <section id="contact" class="contact-section">
+      <h3 class="contact-heading">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </h3>
+      <form
+        class="form-control"
+        action="https://formspree.io/f/mbjwvgdz"
+        method="post"
+      >
+        <input
+          placeholder="Full Name"
+          class="text-field"
+          type="text"
+          name="name"
+          id="fullName"
+          onchange="changeHandler()"
+          maxlength="30"
+          required
+        />
+        <input
+          placeholder="Email Address"
+          class="text-field"
+          type="email"
+          name="email"
+          id="email"
+          onchange="changeHandler()"
+          required
+        />
+        <textarea
+          class="message-field"
+          placeholder="Enter text here"
+          name="message"
+          id="message"
+          onchange="changeHandler()"
+          maxlength="500"
+          required
+        ></textarea>
+        <div>
+          <button type="submit" class="btn-primary" id="submit">
+            Get In Touch
+          </button>
+          <button class="btn-primary" id="reset">Reset</button>
+        </div>
+        <div class="alert" id="alert-danger"></div>
+      </form>
+    </section>
+
+    <!--=============== MODAL ===============-->
+    <div class="modal-container" id="myModal"></div>
   </body>
 </html>

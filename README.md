@@ -5,7 +5,7 @@ This is my portfolio application deploy project in Microverse's module one week 
 ## Built With Major languages
   - HTML 
   - CSS 
-  -js
+  - js
 ## Technologies used
  - linters 
  - Lighthouse 
@@ -13,7 +13,7 @@ This is my portfolio application deploy project in Microverse's module one week 
  - Stylelint 
   
 ## Live Demo 
-https://tadessejemal1.github.io/portfolio-personal/
+[live Demo](https://tadessejemal1.github.io/portfolio-personal/)
 
 ## Getting Started
 
@@ -33,13 +33,12 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 ## Run Test for Linters
   For tracking linter errors locally you need to follow the⭐
-## Deployment
 ## Author
 ## 👤 Tadesse J.
 
-  > GitHub: https://github.com/Tadessejemal1 
-  > 
-  > LinkedIn: https://www.linkedin.com
+- GitHub: [@Tadessejemal1](https://github.com/Tadessejemal1)
+- Twitter: [@twitterhandle](https://twitter.com/tadesse)
+- LinkedIn: [@tadesse-jemal](https://linkedin.com/in/tadesse-jemal)
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 

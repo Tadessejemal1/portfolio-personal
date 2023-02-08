@@ -13,7 +13,7 @@ This is my portfolio application deploy project in Microverse's module one week 
  - Stylelint 
   
 ## Live Demo 
-https://tadessejemal1.github.io/portfolio-mobile-work-and-about/
+https://tadessejemal1.github.io/portfolio-personal/
 
 ## Getting Started
 

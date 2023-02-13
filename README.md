@@ -1,7 +1,7 @@
 ## Project Name
  Personal Portfolio
 ## Description the project.
-This is my portfolio application deploy project in Microverse's module one week 3. In this project, things like setting up Html and CSS liters, GitHub Actions, Grid, and GitHub flow are covered and portfolio applications deploy.
+[My Portfolio] is 🔥the complete portfolio which lets me showcase my work and provides each and every detail about me as software developer..
 ## Built With Major languages
   - HTML 
   - CSS 

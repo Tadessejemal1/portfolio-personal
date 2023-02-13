@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }' class='btn-primary' target='_blank'>
                           See Live
                           <span>
-                            <img  src='./images/share.png'
+                            <img  src='./images/Icon-Export.svg'
                                 alt='live-icon'
                                 class='icon-right'
                                 height='18'/>
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }' class='btn-primary' target='_blank'>
                         See Source
                         <span>
-                          <img  src='./images/github.png'
+                          <img  src='./images/Icon-GitHub.svg'
                               alt='live-icon'
                               class='icon-right'
                               height='18'/>

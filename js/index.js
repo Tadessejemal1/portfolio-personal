@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 4,
-      title: 'Leader board Web',
+      title: 'Leaderboard Web',
       desc: 'In this website you will add scores and also see your scores and I am using a api for fetch the data from api and also add data to the api.',
       languages: ['HTML', 'CSS', 'JS'],
       live: 'https://tadessejemal1.github.io/Leaderboard-web/dist/',
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }' class='btn-primary' target='_blank'>
                           See Live
                           <span>
-                            <img  src='./images/share.png'
+                            <img  src='./images/Icon-Export.svg'
                                 alt='live-icon'
                                 class='icon-right'
                                 height='18'/>
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }' class='btn-primary' target='_blank'>
                         See Source
                         <span>
-                          <img  src='./images/github.png'
+                          <img  src='./images/Icon-GitHub.svg'
                               alt='live-icon'
                               class='icon-right'
                               height='18'/>

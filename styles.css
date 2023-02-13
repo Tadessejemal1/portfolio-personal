@@ -220,6 +220,12 @@ a {
   display: inline-block;
   padding: 0 10px;
   transition-duration: 0.5s;
+  transition: all 0.2s ease;
+}
+
+.contact li:hover {
+  transition: 0.5 all;
+  transform: scale(1.47);
 }
 
 /* ==========================
@@ -606,6 +612,37 @@ a {
 
 .form-control button {
   width: 131px;
+}
+
+/* ==========================
+        Footer Section
+  ========================= */
+.footer hr {
+  background: #dfe1e6;
+}
+  
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+  transition: all 0.2s ease;
+}
+
+.footer-social-icons li a {
+  color: #1c1a19;
+  transition: all 0.2s ease;
+}
+
+.footer-social-icons li {
+  transition: all 0.2s ease;
+}
+  
+.footer-social-icons li:hover {
+  transition: 0.5 all;
+  transform: scale(1.47);
 }
 
 /* ==========================

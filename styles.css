@@ -621,7 +621,7 @@ a {
 .footer hr {
   background: #dfe1e6;
 }
-  
+
 .footer-social-icons {
   display: flex;
   justify-content: center;
@@ -640,7 +640,7 @@ a {
 .footer-social-icons li {
   transition: all 0.2s ease;
 }
-  
+
 .footer-social-icons li:hover {
   transition: 0.5 all;
   transform: scale(1.47);

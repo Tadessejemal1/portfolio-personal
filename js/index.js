@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 4,
-      title: 'Leader board Web',
+      title: 'Leaderboard Web',
       desc: 'In this website you will add scores and also see your scores and I am using a api for fetch the data from api and also add data to the api.',
       languages: ['HTML', 'CSS', 'JS'],
       live: 'https://tadessejemal1.github.io/Leaderboard-web/dist/',

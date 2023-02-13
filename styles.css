@@ -166,7 +166,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
 }
 
@@ -182,7 +182,7 @@ a {
   font-size: 56px;
   font-weight: 400;
   line-height: 82px;
-  padding-top: 3%;
+  padding-top: 10%;
   margin-bottom: 0;
   text-align: left;
   color: var(--orangeColor);
@@ -206,12 +206,14 @@ a {
   font-family: 'Inter', sans-serif;
   font-weight: 200;
   line-height: 32px;
+  padding-top: 10px;
 }
 
 .contact {
   list-style: none;
   padding-inline-start: 0%;
-  padding: 0 1em;
+  padding: 0 0.5em;
+  padding-top: 10px;
 }
 
 .contact li {
@@ -469,7 +471,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   width: 160.27px;
-  height: 286.7px;
+  height: 486.7px;
 }
 
 .about-section hr {
@@ -477,7 +479,7 @@ a {
   max-width: calc(100% - 50px);
   color: #fff;
   margin-left: 24px;
-  margin-top: -521px;
+  margin-top: -721px;
   margin-bottom: 133px;
 }
 
@@ -760,7 +762,7 @@ button:disabled {
 }
 
 .modal-content img {
-  width: 260px;
+  width: 270px;
   height: 220px;
 }
 
@@ -907,13 +909,17 @@ button:disabled {
 
   .information {
     width: 600px;
-    margin-top: 0;
-    margin-left: 5%;
+    margin-top: -120px;
+    margin-left: 3%;
+  }
+
+  .contact {
+    margin-left: 20px;
   }
 
   .contact li {
     display: block;
-    margin: 20px 0;
+    margin: 25px 0;
   }
 
   /* ==========================
@@ -1067,28 +1073,6 @@ button:disabled {
 
   .card-languages-list {
     margin-bottom: -7px;
-  }
-
-  /* ==========================
-        Contact Section
-  ========================= */
-  .text-field {
-    width: 684px;
-    height: 48px;
-  }
-
-  .message-field {
-    width: 684px;
-  }
-
-  .contact-heading {
-    font-size: 40px;
-    line-height: 52px;
-    text-align: left;
-    color: #262626;
-    width: 626px;
-    height: 192px;
-    margin-right: 23px;
   }
 }
 
